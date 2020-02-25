@@ -1,0 +1,351 @@
+*{
+    
+    font-family: arial;
+    margin: 0px;;
+  
+}
+.navBar{
+    
+    list-style: none;
+    float: left;
+    background-image: linear-gradient(to right, #2498c9 , #6c52e3);
+    height: 60px;
+    width: 100%;
+       display: block;
+
+
+}
+.topNav{
+   
+    display: block;
+    position: relative;
+    height: 10px;
+    width: 100%;
+    
+}
+.inputbox{
+	border-style: none;
+
+}
+
+
+.navItem{
+
+    display: inline-block;
+    color: white;
+    margin-right: 5px;
+    margin-left: 30px;
+
+  
+}
+
+.searchbox{
+    
+    width: 600px;
+    border-radius: 24px;
+    border: 1px solid lightGrey;
+    height: 30px;
+    display: inline-block;
+    list-style: none;
+    background-color: white;
+    margin-top: 15px;
+   vertical-align: bottom;
+}
+
+.searchicon{
+    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 430px;
+    margin-bottom: 6px;
+    color: gray;
+    vertical-align: bottom
+}
+
+.navItemHeader{
+    align-items: center;
+    display: inline-block;
+    color: white;
+    margin-right: 5px;
+    margin-left: 30px;
+    font-family: 'Merriweather', serif;
+    
+}
+    
+.navItem{
+
+    color: white;
+    margin-right: 50px;
+
+}
+
+
+.profilePicture{
+    margin-top: 6px;
+    margin-bottom: auto;
+    width: 30px;
+    margin-left: 120px;
+
+}
+
+.bottomNav{
+
+    position: relative;
+    height: 20px;
+    background-color: white;
+    width: 100%
+
+}
+
+.bnav_container{
+	display: inline-flex;
+	align-self: flex-end;
+}
+
+.bottomNavBar{
+    list-style: none;
+    float: left;
+    background-color: white;
+    height:43px;
+    width: 100%;
+    margin: 0;
+
+    
+   
+
+}
+
+.navItemBottom{
+    color: #1e1f3b;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-top: 13px;
+
+
+}
+
+.makeAPost{
+    margin-top: 2px;
+    color: black;
+    display: inline-block;
+    margin-left: 330px;
+    border: 2px solid #1e1f3b;
+    padding: 5px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+
+
+.b{
+    background: white;
+
+    font-size: 18px;
+    border: 2px solid #363cd1;
+    border-radius: 14px;
+
+    font-family: 'Merriweather';
+    box-shadow: 3px 3px #363cd1;
+    width: 250px;
+    height: 160px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+
+.b2{
+
+   background-image: linear-gradient(to right, #2498c9 , #6c52e3);
+    font-size: 18px;
+    border: 2px solid #363cd1;
+    border-radius: 14px;
+
+    font-family: 'Merriweather';
+    box-shadow: 3px 3px #363cd1;
+    color: white;
+       width: 250px;
+    height: 160px;
+    margin: 30px;
+}
+
+
+body{
+    background-color: #dfdded;
+
+}
+.footerItem{
+    color: #1e1f3b;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    
+}
+
+.footerItem2{
+    color: #1e1f3b;
+    display: inline-block;
+    margin-right: 800px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    
+}
+
+.container{
+
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: left;
+
+}
+
+.footer_bar{
+    margin-top: 9%;
+     list-style: none;
+    float: left;
+    background-color: white;
+    height:43px;
+    width: 100%;
+
+
+}
+
+@media screen and (max-width: 1293px){
+.profilePicture{
+    
+
+    margin-left: 10%;
+
+}
+.makeAPost{
+    
+    margin-left: 20px;
+   
+}
+
+    
+.navItem{
+
+    display: inline-block;
+    color: white;
+    margin-right: 0px;
+    margin-left: 3%;
+
+  
+}
+
+.footerItem{
+
+	margin-right: 3%;
+}
+
+.footerItem2{
+
+	margin-right: 30%;
+}
+
+
+}
+
+@media screen and (max-width: 1055px){
+
+.makeAPost{
+   width: 120px;
+
+
+}
+
+.navItem{
+
+	display: none;
+}
+
+.profilePicture{
+
+	margin: 0px; 
+}
+
+}
+
+
+@media screen and (max-width: 933px){
+	.topNav{
+
+		margin-bottom: 40px;
+	}
+	.bottonNav{
+		display: none;
+	}
+
+	.searchbox{
+
+		width: 60%;
+	}
+
+	.searchicon{ 
+		margin-left: 60%;
+
+	}
+
+	.container{
+	
+		justify-content: center;
+
+
+	}
+
+	.b{
+	
+		margin: 10px;
+	}
+	.b2{
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.topNav{
+
+		margin-bottom: 40px;
+	}
+	.bottonNav{
+		display: none;
+	}
+
+	.searchbox{
+
+		width: 50%;
+	}
+
+	.searchicon{ 
+		display: none;
+
+	}
+
+	.container{
+	
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.b{
+		margin: 20px;
+		width: 210px;
+	}
+	.b2{
+		margin: 20px;
+		width: 210px;
+	}
+}
+
+    
